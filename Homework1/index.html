@@ -5,7 +5,59 @@
 
     <body>
         <script>
+            // The Geometrizer
+
+            // Store a radius into a variable.
+            // Calculate the circumference based on the radius, and output "The circumference is NN".
+            // Calculate the area based on the radius, and output "The area is NN".
+            // area = PI r2 
+
+            var radius = 3;
+            var pi = 3.14;
+            var diameter = 2 * radius;
+            var circumference = pi * diameter;
             
+            console.log("The circumference is " + circumference + ".");
+
+            var area = pi * (radius * radius);
+            
+            console.log("The area is " + area + ".");
+            
+
+
+            // The Lifetime Supply Calculator
+
+            // Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
+            // Store your current age into a variable.
+            // Store a maximum age into a variable.
+            // Store an estimated amount per day (as a number).
+            // Calculate how many you would eat total for the rest of your life.
+            // Output the result to the screen like so: "You will need NN to last you until the ripe old age of X".
+
+            var age = 22;
+            var maxage = 90;
+            var perday = 3;
+            var restofurlife = (perday * 365) * (maxage - age);
+
+            console.log("You will need " + restofurlife + " to last you until the ripe old age of " + maxage);
+
+            // The Temperature Converter
+
+            // It's hot out! Let's make a converter based on the steps here.
+            // Store a celsius temperature into a variable.
+            // Convert it to fahrenheit and output "NN°C is NN°F".
+            // Now store a fahrenheit temperature into a variable.
+            // Convert it to celsius and output "NN°F is NN°C."
+
+            var celsius = 10;
+            var method = (celsius / 5) * 9 + 32;
+
+            console.log(celsius + "°C is " + method + "°F.");
+
+            var fahrenheit = 10;
+            var methodtwo = ((10 - 32) * 5) / 9;
+
+            console.log(fahrenheit + "°F is " + methodtwo + "°C.");
         </script>
     </body>
 </html>
