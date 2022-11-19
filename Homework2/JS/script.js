@@ -17,6 +17,8 @@ var programmingLanguages = [
     "C++", "C#", "Ruby", "Java", "JavaScript", "Python", "PHP", ".net"
 ];
 
+console.log(programmingLanguages);
+
 console.log(programmingLanguages.length);
 console.log(programmingLanguages);
 
