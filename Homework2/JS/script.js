@@ -22,7 +22,7 @@ console.log(programmingLanguages);
 console.log(programmingLanguages.length);
 console.log(programmingLanguages);
 
-console.log(programmingLanguages.pop());
+var removeL = programmingLanguages.pop();
 console.log(programmingLanguages); 
 
 
