@@ -1,6 +1,4 @@
 // THE HELLO WORLD EXERCISE (if statement)
-// Create a variable called "code", that will hold a string (for example: "es" or "de" or "en")
-// Based on the value of the variable "code", output in the console: "Hello World" in the language that the code is written. If it's es, write Hello World in Spanish. If it's de, write it in German... etc.
 
 var code = "en"
 if (code == "es") {
@@ -14,12 +12,6 @@ if (code == "es") {
 };
 
 // SEASONS (if statement)
-// Check if the season is Autumn, Winter, Spring or Summer. If the user types (via prompt):
-// September, October or November, the season is Autumn.
-// December, January or February, the season is Winter.
-// March, April or May, the season is Spring
-// June, July or August, the season is Summer
-// Output the results in the console
 
 var season = prompt("Enter a month:");
 
@@ -36,8 +28,6 @@ if(season == "September" || season == "October" || season =="November") {
 };
 
 // MUSICIANS (switch statement)
-// Create a variable called "band_members_num" and store a number from 1 to 10 in it.
-// Based on the number, output in the console what kind of a music group it is: If the number is 3 the output is "This band is a trio" etc...
 
 var band_members_num = 4
 
