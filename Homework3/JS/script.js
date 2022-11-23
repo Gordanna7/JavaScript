@@ -13,6 +13,7 @@ if (code == "es") {
 
 // SEASONS (if statement)
 
+
 var season = prompt("Enter a month:");
 
 if(season == "September" || season == "October" || season =="November") {
