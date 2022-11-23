@@ -8,7 +8,7 @@ if (code == "es") {
 } else if ( code == "en") {
     console.log ("Hello World");
 } else {
-    console.error("Language not found! Try again :(");
+    console.error("Language not found! Try again");
 };
 
 // SEASONS (if statement)
